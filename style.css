@@ -126,6 +126,9 @@ h1{
     padding: 15px;
     border-radius: 20px;
     text-align: center;
+    display: flex;                 /* ✅ Nuevo */
+    justify-content: space-evenly; /* ✅ Distribución equilibrada */
+    align-items: center;           /* ✅ Centrado vertical */
 }
 
 /* Variante mediana de la mesa: texto más grande */
