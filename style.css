@@ -83,8 +83,12 @@ h1{
     padding: 15px;
     border-radius: 20px;
     text-align: center;
+    display: flex;            /* ✅ Nuevo */
+    flex-direction: row;      /* ✅ Los hijos en fila */
+    justify-content: center;  /* ✅ Centrado horizontal */
+    align-items: center;      /* ✅ Centrado vertical */
+    gap: 50px;                /* Espacio */
 }
-
 /* Estilo base para la cama: texto blanco */
 .bedroom__cama{
     color: white;
