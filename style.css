@@ -111,7 +111,12 @@ h1{
 /* Estilo base para el armario: texto blanco */
 .bedroom__aramario{
     color: #ffffff;
+    display: flex;                 /*  Nuevo */
+    justify-content: space-between;/* Distribuye su contenido */
+    align-items: center;
+    padding: 5px;
 }
+
 
 /* Variante nueva del armario: texto más grande */
 .bedroom__aramario--new{
