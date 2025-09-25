@@ -50,8 +50,12 @@ h1{
     background-color: deeppink;
     font-family: monospace;
     font-size: medium;
-   
+    display: flex;           /* ✅ Nuevo */
+    justify-content: center; /* Centra texto del plato */
+    align-items: center;
+    padding: 10px;
 }
+
 
 /* Variante pequeña del plato: texto negro y fuente más formal */
 .kitchen__Plato--small{
