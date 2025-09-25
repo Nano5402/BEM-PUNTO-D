@@ -16,6 +16,10 @@ h1{
     padding: 15px;
     border-radius: 20px;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap; /*primer cambio hecho en codigo-karol*/
+    justify-content: space-around;  
+    gap: 10px;
 }
 
 /* Estilo base para la olla: texto verde, fondo beige y fuente legible */
@@ -24,6 +28,9 @@ h1{
     background-color: beige;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: large;
+    display:flex;
+    align-self: center;
+ 
 }
 
 /* Variante gris de la olla: texto rojo y misma fuente */
@@ -43,6 +50,7 @@ h1{
     background-color: deeppink;
     font-family: monospace;
     font-size: medium;
+   
 }
 
 /* Variante pequeña del plato: texto negro y fuente más formal */
